@@ -14,8 +14,8 @@ import time
 start = time.time()
 
 # hyper-parameters
-epochs = 25
-batch_size = 250
+epochs = 1
+batch_size = 100
 learning_rate = .005
 total_step = epochs / batch_size
 buffer_size = 300

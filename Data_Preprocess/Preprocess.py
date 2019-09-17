@@ -67,10 +67,10 @@ def run(input_num):
 # For run
 # run의 파라미터로 넣은 개수가 바로 source의 갯수이다.
 # 예를 들어, 3을 넣으면 문장을 띄어쓰기 기준으로 3개 / 나머지 로 나눠서 저장시킨다.
-
-print("source로 넣을 인풋의 갯수(Dimension) 입력. 입력한 갯수만큼의 첫 단어들/나머지 단어들로 분할된 리스트를 출력하여 저장합니다.\n")
-input_value = input()
-run(input_value)
+if __name__ == "__main__":
+    print("source로 넣을 인풋의 갯수(Dimension) 입력. 입력한 갯수만큼의 첫 단어들/나머지 단어들로 분할된 리스트를 출력하여 저장합니다.\n")
+    input_value = input()
+    run(input_value)
 
 
 
